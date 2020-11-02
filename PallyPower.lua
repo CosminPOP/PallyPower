@@ -333,7 +333,7 @@ function PallyPower_UpdateUI()
         end
       end
     end    
-    for rest = BuffNum, 8 do
+    for rest = BuffNum, 9 do
         local btn = getglobal("PallyPowerBuffBarBuff"..rest);
         btn:Hide();
     end        
